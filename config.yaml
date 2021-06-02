@@ -1,0 +1,13 @@
+hosts:
+  - file: "index.html"
+    ipaddress: "0.0.0.0"
+    port: 8080
+    tls: true
+    cert: "localhost.pem"
+    key: "localhost-key.pem"
+  - file: "index1.html"
+    ipaddress: "127.0.0.1"
+    port: 8081
+    tls: false
+    cert: ""
+    key: ""
